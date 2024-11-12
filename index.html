@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App Easy Tutorials </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+    <h1>Simple Quiz</h1>
+    <button id="start-btn">Start Quiz</button>
+    <button id="mute-btn">Mute</button>
+    <div class="quiz">
+        <h2 id="question">Question goes here</h2> 
+       <div id="timer">Time left: <span id="time">15</span> seconds</div>
+       <!--Question starts from here-->
+        <h2 id="question">Question goes here</h2> 
+       <div id ="answer-buttons">
+            <button class ="btn">Answer 1</button>
+            <button class ="btn">Answer 2</button>
+            <button class ="btn">Answer 3</button>
+            <button class ="btn">Answer 4</button>
+
+       </div>
+       <button id ="next-btn">Next</button>
+       
+    </div>
+</div>
+   <script src="script.js"></script> 
+<audio id="background-music" src="sounds\703713__zhr__chill-background-music-2.wav" loop></audio>
+<audio id="correct-sound" src="sounds\644943__craigscottuk__quiz-gameshow-correct-ding-03.mp3"></audio>
+<audio id="incorrect-sound" src="sounds\587253__beetlemuse__dats-wrong.wav"></audio>
+<audio id="times-up-sound" src="sounds/335909__littlerainyseasons__times-up.wav"></audio>
+
+</body>
+</html>
